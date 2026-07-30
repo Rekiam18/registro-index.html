@@ -1,0 +1,83 @@
+body,html{
+background-image: url("images.jpg");
+}
+h2{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.contenedor-registro{ 
+    background-color:blueviolet;
+    max-width: 500px; 
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+box-shadow: 0px 6px 15px rgba(16, 182, 233, 0.1);
+font-family: Arial, sans-serif;
+}
+.contenedor-registro h2{
+    color:aquamarine;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenedor-registro p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label{ 
+    display: block;
+    color:aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+input{
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border:1px solid purple;
+border-radius: 50px;
+font-size: 14px;
+box-sizing: border-box;
+transition:border-color 0.3s ease;
+}
+
+input:focus{
+    border-color: aquamarine;
+    outline: none;
+}
+
+.btn-registro{
+    width: 50%;
+    background-color: aquamarine;
+    color: purple;
+    padding: 10px;
+    border: none;   
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-registro:hover{
+    background-color: purple;
+    color: aquamarine;
+}
+.registro{
+    text-align: center;
+    box-shadow: inset 0px 50px 50px white;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
